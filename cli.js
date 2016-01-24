@@ -17,12 +17,13 @@ commandline
   .option("-z, --depth [cm]", "Cutting Depth")
   .option("-s, --depthOfCut [cm]", "Depth of Cut")
   .option("-a, --alignment [inside|outside|center]", "Alignment of Cut")
-  
+  .option("-n, --tails [#]", "number of tails")
+ 
   .action(function(options){
     if(options.toolDiameter ){
       return cncdovetailcut.getGcode(options);
     } else {
-      console.log('Missing a required option!');
+      console.log('cncdovetail gcode -d [cm] -x [cm] -y [cm] -z [cm] -s [cm] -a[inside|outside|center] -n [tails]');
     }
   });
 
