@@ -1,10 +1,43 @@
 # (Round) CNCDoveTailCut
 Generate GCode for cutting dove tail joints with a CNC milling machine
 
-##TODO
+## Getting Started
 
-* parameterize cut (number of tails, width, height, tool diameter, cutting depth, milimeters per step, feed rate, alignment(inside, outside, center))
-* command line interface
+Install the module with: `npm install cncdovetailcut`
+
+
+Install with cli command
+
+```sh
+$ npm install -g cncdovetailcut
+```
+
+
+ 
+
+
+
+## Documentation
+
+The following commands are available to use:
+
+_Usage:_ cncdovetailcut gcode [options] [command]
+
+_Commands:_
+
+  gcode [options] 
+     generate gcode for specified parameters
+   
+   
+    
+
+_Options:_
+
+  -h, --help             output usage information
+  -v, --version          Program version
+   
+
+ 
 
 ##Credits
 
