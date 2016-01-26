@@ -3,7 +3,10 @@ Generate GCode for cutting dove tail joints with a CNC milling machine
 
 ## Getting Started
 
-Install the module with: `npm install cncdovetailcut`
+Install the module with: 
+```sh
+$ npm install cncdovetailcut
+```
 
 
 Install with cli command
