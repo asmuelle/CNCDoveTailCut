@@ -1,0 +1,15 @@
+{
+  "name": "cncdovetailcut",
+  "version": "1.0.0",
+  "description": "cut dove tail joints with a CNC milling machine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andreas Mueller",
+  "license": "MIT",
+  "dependencies": {
+    "cardinal-spline-js": "^2.3.3",
+    "gcanvas": "0.0.37"
+  }
+}
