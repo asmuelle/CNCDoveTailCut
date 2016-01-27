@@ -16,7 +16,7 @@ commandline
   .option("-y, --height [cm]", "Cutting Width")
   .option("-z, --depth [cm]", "Cutting Depth")
   .option("-s, --depthOfCut [cm]", "Depth of Cut")
-  .option("-a, --alignment [inside|outside|center]", "Alignment of Cut")
+  .option("-a, --align [inner|outer|center]", "Alignment of Cut")
   .option("-n, --tails [#]", "number of tails")
  
   .action(function(options){
