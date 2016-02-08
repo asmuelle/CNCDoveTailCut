@@ -34,12 +34,20 @@ var pts=	[   0, 60,
           185, 60,
 
 					 			 200, 60];
-ctx.toolDiameter =5;
+ctx.toolDiameter =8;
 ctx.depth = 5;
 ctx.depthOfCut=1;
 ctx.beginPath();				 
 ctx.moveTo(pts[0], pts[1]);
 cardinalSpline.curve(ctx, pts, 0.6, 11,false);
+ctx.align="inner";
+
+//ctx.lineTo(200,80);
+//ctx.lineTo(0,80);
+ctx.lineTo(200,0);
+ctx.lineTo(0,0)
+ctx.lineTo(0,60);
 ctx.lineWidth = 3;
-ctx.stroke();
+
 ctx.closePath();
+ctx.fill();
